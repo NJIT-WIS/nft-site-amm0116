@@ -121,3 +121,14 @@ nav .logo {
     margin: 17px 50px;
     opacity: 0.7;
 }
+
+/* Ready Section Styling */
+
+.ready {
+    border-radius: 30px;
+    background: linear-gradient(283deg, #95D4D5 -28.18%, #6565E2 98.61%);
+    width: 1065px;
+    height: 416px;
+    flex-shrink: 0;
+    margin: auto;
+}
