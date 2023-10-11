@@ -134,6 +134,7 @@ nav .logo {
     line-height: 27.5px; /* 137.5% */
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .testimonial p {
