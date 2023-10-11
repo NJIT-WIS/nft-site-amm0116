@@ -232,3 +232,16 @@ footer h2 {
     font-weight: 600;
     line-height: normal;
 }
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px; /* 193.75% */
+}
+
+footer a:hover {
+    color: #8E8EDB;
+    transition: 500ms;
+}
