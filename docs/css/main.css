@@ -6,3 +6,11 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+/* Navigation Styling */
+
+.nav-container {
+    width: 1065px;
+    height: 28px;
+    flex-shrink: 0;
+}
