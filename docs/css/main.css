@@ -31,3 +31,13 @@ nav {
 nav ul {
     display: flex;
 }
+
+nav .logo {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px; /* 137.5% */
+    text-transform: uppercase;
+}
