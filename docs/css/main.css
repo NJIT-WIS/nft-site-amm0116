@@ -131,6 +131,7 @@ nav .logo {
     height: 416px;
     flex-shrink: 0;
     margin: auto;
+    text-align: center;
 }
 
 .ready h2 {
@@ -142,17 +143,36 @@ nav .logo {
     line-height: 27.5px; /* 137.5% */
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-align: center;
     padding-top: 55px;
 }
 
 .ready p {
     font-family: Outfit, sans-serif;
-    text-align: center;
     font-size: 58px;
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 58px */
     text-transform: capitalize;
     padding-top: 43px;
+    padding-bottom: 66px;
+}
+
+.ready a {
+    font-family: Outfit, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px; /* 137.5% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 23px 74px;
+    border-radius: 83px;
+    background: #000;
+    text-decoration: none;
+}
+
+.ready a:hover {
+    color: #8E8EDB;
+    transition: 500ms;
 }
