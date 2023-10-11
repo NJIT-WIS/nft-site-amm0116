@@ -6,6 +6,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #FFF;
+    font-size: 18px;
     background: #07154E url("../images/bg circles.svg");
     background-repeat: no-repeat;
     background-position: top right;
