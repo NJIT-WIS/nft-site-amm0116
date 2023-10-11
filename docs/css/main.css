@@ -109,3 +109,8 @@ nav .logo {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+.featured .image-container {
+    border-radius: 7px;
+    background: rgba(62, 51, 134, 0.46);
+}
