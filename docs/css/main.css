@@ -21,6 +21,16 @@ h1 {
     text-transform: capitalize; 
 }
 
+h2 {
+    font-family: Outfit, sans-serif;
+    color: #FFF;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 58px */
+    text-transform: capitalize;
+}
+
 /* Navigation Styling */
 
 .nav-container {
