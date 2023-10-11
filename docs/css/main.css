@@ -46,3 +46,7 @@ nav .logo {
     list-style: none;
     margin-right: 100px;
 }
+
+.menu li:nth-last-of-type(1) {
+    margin: 0;
+}
