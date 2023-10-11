@@ -125,8 +125,21 @@ nav .logo {
 
 /* Testimonial Card Styling */
 
+.testimonials-header {
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+}
+
 .testimonial {
     text-align: center;
+    border-radius: 20px;
+    background: #212268;
+    width: 345px;
+    height: 233px;
+    flex-shrink: 0;
 }
 
 .testimonial h3 {
