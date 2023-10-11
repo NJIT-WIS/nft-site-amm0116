@@ -5,7 +5,10 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background: #07154E;
+    background: #07154E url("../images/bg circles.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
 }
 
 /* Navigation Styling */
