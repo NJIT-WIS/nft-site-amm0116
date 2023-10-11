@@ -145,3 +145,14 @@ nav .logo {
     text-align: center;
     padding-top: 55px;
 }
+
+.ready p {
+    font-family: Outfit, sans-serif;
+    text-align: center;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 58px */
+    text-transform: capitalize;
+    padding-top: 43px;
+}
