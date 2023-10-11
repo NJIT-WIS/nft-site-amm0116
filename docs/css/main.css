@@ -113,4 +113,11 @@ nav .logo {
 .featured .image-container {
     border-radius: 7px;
     background: rgba(62, 51, 134, 0.46);
+    text-align: center;
+    height: 100px;
+}
+
+.featured img {
+    margin: 17px 50px;
+    opacity: 0.7;
 }
