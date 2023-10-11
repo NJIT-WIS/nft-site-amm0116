@@ -125,6 +125,10 @@ nav .logo {
 
 /* Testimonial Card Styling */
 
+.testimonial {
+    text-align: center;
+}
+
 .testimonial h3 {
     color: #FFF;
     font-family: Outfit, sans-serif;
@@ -134,12 +138,10 @@ nav .logo {
     line-height: 27.5px; /* 137.5% */
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .testimonial p {
     font-size: 16px;
-    text-align: center;
 }
 
 /* Ready Section Styling */
