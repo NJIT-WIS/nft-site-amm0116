@@ -211,3 +211,15 @@ nav .logo {
     color: #8E8EDB;
     transition: 500ms;
 }
+
+/* Footer Styling */
+
+.footer-logo {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
