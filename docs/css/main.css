@@ -135,6 +135,11 @@ nav .logo {
     text-transform: uppercase;
 }
 
+.testimonial p {
+    font-size: 16px;
+    text-align: center;
+}
+
 /* Ready Section Styling */
 
 .ready {
