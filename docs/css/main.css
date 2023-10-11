@@ -41,3 +41,8 @@ nav .logo {
     line-height: 27.5px; /* 137.5% */
     text-transform: uppercase;
 }
+
+.menu li {
+    list-style: none;
+    margin-right: 100px;
+}
