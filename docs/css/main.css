@@ -344,6 +344,12 @@ nav .logo {
     background: #8E8EDB;
 }
 
+#buy a:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 /* Testimonial Section Styling */
 
 .testimonials-header {
