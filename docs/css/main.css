@@ -438,10 +438,12 @@ footer {
 
 footer .footer {
     display: flex;
+    align-items: self-start;
+    justify-content: space-between;
 }
 
 footer .footer .footer-links {
-    width: 180px;
+    min-width: 180px;
 }
 
 footer .footer-logo {
@@ -452,7 +454,7 @@ footer .footer-logo {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    width: 180px;
+    min-width: 180px;
 }
 
 footer h2 {
