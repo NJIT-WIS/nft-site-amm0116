@@ -253,9 +253,28 @@ nav .logo {
     width: 538px;
 }
 
-#app p {
+#app .sub-text {
     margin-top: 25px;
     width: 435px;
+    margin-bottom: 50px;
+}
+
+#app a {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px; /* 137.5% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 255px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 83px;
+    text-decoration: none;
+    padding: 23px 74px;
+    background: #8E8EDB;
 }
 
 #app img {
