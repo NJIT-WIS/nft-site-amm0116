@@ -230,6 +230,10 @@ nav .logo {
     background: #8E8EDB;
 }
 
+#about img {
+    width: 507px;
+}
+
 /* Testimonial Card Styling */
 
 .testimonials-header {
