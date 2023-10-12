@@ -123,8 +123,6 @@ nav .logo {
     flex: 1;
 }
 
-/* Featured Section Styling */
-
 .hero .hero-text a {
     color: #FFF;
     font-family: Outfit, sans-serif;
@@ -150,6 +148,8 @@ nav .logo {
 .hero .hero-text .sell {
     border: 1px solid #A3D6D7;
 }
+
+/* Featured Section Styling */
 
 .featured h2 {
     font-family: Outfit, sans-serif;
