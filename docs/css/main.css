@@ -197,9 +197,7 @@ nav .logo {
     width: 1065px;
 }
 
-#about .section-top {
-    margin-top: 31px;
-}
+
 
 #about h2 {
     margin-top: 21px;
@@ -244,10 +242,6 @@ nav .logo {
     width: 1065px;
 }
 
-#app .section-top {
-    margin-top: 77px;
-}
-
 #app h2 {
     margin-top: 21px;
     width: 538px;
@@ -289,10 +283,6 @@ nav .logo {
     align-items: center;
     justify-content: space-between;
     width: 1065px;
-}
-
-#buy .section-top {
-    margin-top: 4px;
 }
 
 #buy h2 {
