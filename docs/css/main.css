@@ -246,6 +246,12 @@ nav .logo {
     background: #8E8EDB;
 }
 
+#about a:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 #about img {
     width: 507px;
 }
