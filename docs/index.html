@@ -323,9 +323,9 @@
 
             <h2>join our newsletter</h2>
 
-            <form>
+            <form onsubmit="sendEmail(); reset(); return false;">
 
-            <input type="email" placeholder="Email Address" />
+            <input type="email" id="emailInput" placeholder="Email Address" required />
 
             <input type="submit" value="Submit" />
 
@@ -339,6 +339,27 @@
 
     <div class="decorative-line"></div>
 
-	<!-- <script src="index.js"></script> -->
+    <!-- JavaScript from https://smtpjs.com/ -->
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "amm-personal@outlook.com",
+                Password : "9C37E13BE4553088B1738402C4DD8A369094",
+                To : 'amm-personal@outlook.com',
+                From : document.getElementById("emailInput").value,
+                Subject : "New Krypto Newsletter Subscriber",
+                Body : "Please add the following email address to the Krypto newsletter subscription list: " + document.getElementById("emailInput").value
+            }).then(
+            message => alert("Subscription Request Sent Successfully")
+            );
+        }
+
+    </script>
+
   </body>
 </html> 
