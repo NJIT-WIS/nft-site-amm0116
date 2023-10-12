@@ -187,6 +187,30 @@ nav .logo {
     padding-right: 0px;
 }
 
+/* About (Analytics) Section Styling */
+
+#about {
+    margin-top: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1065px;
+}
+
+#about .section-top {
+    margin-top: 31px;
+}
+
+#about h2 {
+    margin-top: 21px;
+    width: 526px;
+}
+
+#about p {
+    margin-top: 21px;
+    width: 435px;
+}
+
 /* Testimonial Card Styling */
 
 .testimonials-header {
