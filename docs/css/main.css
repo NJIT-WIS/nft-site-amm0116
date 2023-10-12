@@ -572,6 +572,12 @@ form {
     left: -138px;
 }
 
+.newsletter-form input[type=submit]:hover {
+    font-size: 17px;
+    color: #000;
+    transition: 500ms;
+}
+
 /* Decorative Line Styling */
 
 .decorative-line {
