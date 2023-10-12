@@ -100,6 +100,12 @@ nav .logo {
     text-decoration: none;
 }
 
+.menu li a:hover {
+    color: #8E8EDB;
+    font-size: 22px;
+    transition: 500ms;
+}
+
 /* Hero Section Styling */
 
 .hero {
