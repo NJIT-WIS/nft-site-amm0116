@@ -116,6 +116,7 @@ nav .logo {
 
 .hero p {
     max-width: 355px;
+    margin-bottom: 70px;
 }
 
 .hero .hero-text {
@@ -123,6 +124,32 @@ nav .logo {
 }
 
 /* Featured Section Styling */
+
+.hero .hero-text a {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px; /* 137.5% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 255px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 83px;
+    text-decoration: none;
+    padding: 23px 74px;
+}
+
+.hero .hero-text .buy {
+    background: #8E8EDB;
+    margin-right: 15px;
+}
+
+.hero .hero-text .sell {
+    border: 1px solid #A3D6D7;
+}
 
 .featured h2 {
     font-family: Outfit, sans-serif;
