@@ -413,6 +413,8 @@ nav .logo {
     text-transform: capitalize;
     padding-top: 43px;
     padding-bottom: 66px;
+    width: 444px;
+    margin: auto;
 }
 
 .ready a {
