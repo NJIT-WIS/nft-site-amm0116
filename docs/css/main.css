@@ -234,6 +234,30 @@ nav .logo {
     width: 507px;
 }
 
+/* App Section Styling */
+
+#app {
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1065px;
+}
+
+#app .section-top {
+    margin-top: 77px;
+}
+
+#app h2 {
+    margin-top: 21px;
+    width: 538px;
+}
+
+#app p {
+    margin-top: 25px;
+    width: 435px;
+}
+
 /* Testimonial Card Styling */
 
 .testimonials-header {
