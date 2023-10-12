@@ -151,8 +151,20 @@ nav .logo {
     margin-right: 15px;
 }
 
+.hero .hero-text .buy:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 .hero .hero-text .sell {
     border: 1px solid #A3D6D7;
+}
+
+.hero .hero-text .sell:hover {
+    font-size: 22px;
+    color: #8E8EDB;
+    transition: 500ms;
 }
 
 /* Featured Section Styling */
