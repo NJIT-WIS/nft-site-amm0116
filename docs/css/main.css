@@ -100,6 +100,12 @@ nav .logo {
     text-decoration: none;
 }
 
+.menu li a:hover {
+    color: #8E8EDB;
+    font-size: 22px;
+    transition: 500ms;
+}
+
 /* Hero Section Styling */
 
 .hero {
@@ -145,8 +151,20 @@ nav .logo {
     margin-right: 15px;
 }
 
+.hero .hero-text .buy:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 .hero .hero-text .sell {
     border: 1px solid #A3D6D7;
+}
+
+.hero .hero-text .sell:hover {
+    font-size: 22px;
+    color: #8E8EDB;
+    transition: 500ms;
 }
 
 /* Featured Section Styling */
@@ -181,6 +199,11 @@ nav .logo {
     padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.featured img:hover {
+    transform: scale(1.2);
+    transition: 500ms;
 }
 
 .featured img:nth-last-of-type(1) {
@@ -228,6 +251,12 @@ nav .logo {
     background: #8E8EDB;
 }
 
+#about a:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 #about img {
     width: 507px;
 }
@@ -269,6 +298,12 @@ nav .logo {
     text-decoration: none;
     padding: 23px 74px;
     background: #8E8EDB;
+}
+
+#app a:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
 }
 
 #app img {
@@ -314,6 +349,12 @@ nav .logo {
     background: #8E8EDB;
 }
 
+#buy a:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 /* Testimonial Section Styling */
 
 .testimonials-header {
@@ -348,6 +389,11 @@ nav .logo {
     position: relative;
     top: -68px;
     mix-blend-mode: luminosity;
+}
+
+.testimonial img:hover {
+    transform: scale(1.2);
+    transition: 500ms;
 }
 
 .testimonial h3 {
@@ -425,6 +471,7 @@ nav .logo {
 
 .ready a:hover {
     color: #8E8EDB;
+    font-size: 22px;
     transition: 500ms;
 }
 
@@ -533,6 +580,12 @@ form {
     border: 0px;
     position: relative;
     left: -138px;
+}
+
+.newsletter-form input[type=submit]:hover {
+    font-size: 17px;
+    color: #000;
+    transition: 500ms;
 }
 
 /* Decorative Line Styling */
