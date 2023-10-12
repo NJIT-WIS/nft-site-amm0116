@@ -295,6 +295,12 @@ nav .logo {
     background: #8E8EDB;
 }
 
+#app a:hover {
+    font-size: 22px;
+    color: #000;
+    transition: 500ms;
+}
+
 #app img {
     width: 491px;
 }
