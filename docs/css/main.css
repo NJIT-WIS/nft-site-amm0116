@@ -357,6 +357,7 @@ nav .logo {
 .testimonial img {
     position: relative;
     top: -68px;
+    mix-blend-mode: luminosity;
 }
 
 .testimonial h3 {
