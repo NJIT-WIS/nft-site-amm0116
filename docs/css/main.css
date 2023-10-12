@@ -51,7 +51,7 @@ h2 {
     height: 72px;
     flex-shrink: 0;
     margin-top: 129px;
-    margin-bottom: 158px;
+    margin-bottom: 70px;
 }
 
 .wrapper {
@@ -98,6 +98,28 @@ nav .logo {
     line-height: 27.5px; /* 137.5% */
     text-transform: lowercase;
     text-decoration: none;
+}
+
+/* Hero Section Styling */
+
+.hero {
+    width: 1065px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    max-width: 360px;
+    margin: 32px 0;
+}
+
+.hero p {
+    max-width: 355px;
+}
+
+.hero .hero-text {
+    flex: 1;
 }
 
 /* Featured Section Styling */
