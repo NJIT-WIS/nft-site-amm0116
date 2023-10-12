@@ -15,13 +15,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     </noscript>
 
+    <!-- Google Fonts -->
+    <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Roboto&family=Outfit&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Outfit&display=swap" rel="stylesheet">
+    </noscript>
+
   </head>
   <body>
 
 <header>
 
-    <div class="nav-container">
     <div class="wrapper">
+    <div class="nav-container">
     <nav>
 
         <div class="logo">KRYPTO</div>
@@ -61,11 +69,11 @@
 
                 <p class="sub-text">The most secure marketplace for buying and selling unique crypto assets.</p>
                 
-                <a href="#" aria-label="Buy NFTs from Krypto">
+                <a class="buy" href="#" aria-label="Buy NFTs from Krypto">
                     Buy NFTs
                 </a>
 
-                <a href="#" aria-label="Sell NFTs on Krypto">
+                <a class="sell" href="#" aria-label="Sell NFTs on Krypto">
                     Sell NFTs
                 </a>
 
@@ -315,15 +323,21 @@
 
             <h2>join our newsletter</h2>
 
+            <form>
+
             <input type="email" placeholder="Email Address" />
 
             <input type="submit" value="Submit" />
+
+            </form>
         
         </div>
 
     </div>
 
     </footer>
+
+    <div class="decorative-line"></div>
 
 	<!-- <script src="index.js"></script> -->
   </body>
