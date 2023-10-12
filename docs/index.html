@@ -323,7 +323,7 @@
 
             <h2>join our newsletter</h2>
 
-            <form>
+            <form onsubmit="sendEmail(); reset(); return false;">
 
             <input type="email" id="emailInput" placeholder="Email Address" required />
 
@@ -339,6 +339,27 @@
 
     <div class="decorative-line"></div>
 
-	<!-- <script src="index.js"></script> -->
+    <!-- JavaScript from https://smtpjs.com/ -->
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+
+        function sendEmail(){
+            Email.send({
+                Host : "smtp-mail.outlook.com",
+                Username : "amm-personal@outlook.com",
+                Password : "password",
+                To : 'amm-personal@outlook.com',
+                From : document.getElementById("emailInput").value,
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+
+    </script>
+
   </body>
 </html> 
