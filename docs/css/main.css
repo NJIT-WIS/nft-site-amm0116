@@ -496,3 +496,22 @@ footer a:hover {
     color: #8E8EDB;
     transition: 500ms;
 }
+
+/* Search Box Styling */
+
+.newsletter-form input[type=email] {
+    width: 340px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #212268;
+    border: 0px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px; /* 193.75% */
+    padding-left: 22px;
+
+}
