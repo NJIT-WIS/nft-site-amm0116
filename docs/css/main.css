@@ -461,6 +461,7 @@ nav .logo {
 
 .ready a:hover {
     color: #8E8EDB;
+    font-size: 22px;
     transition: 500ms;
 }
 
