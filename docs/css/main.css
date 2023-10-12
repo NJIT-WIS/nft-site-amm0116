@@ -458,6 +458,11 @@ footer h2 {
     line-height: normal;
 }
 
+footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
 footer a {
     color: #FFF;
     text-decoration: none;
