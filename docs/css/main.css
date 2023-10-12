@@ -281,6 +281,48 @@ nav .logo {
     width: 491px;
 }
 
+/* Buy Section Styling */
+
+#buy {
+    margin-top: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1065px;
+}
+
+#buy .section-top {
+    margin-top: 4px;
+}
+
+#buy h2 {
+    margin-top: 21px;
+    width: 526px;
+}
+
+#buy .sub-text {
+    margin-top: 22px;
+    width: 435px;
+    margin-bottom: 51px;
+}
+
+#buy a {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px; /* 137.5% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 255px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 83px;
+    text-decoration: none;
+    padding: 23px 74px;
+    background: #8E8EDB;
+
 /* Testimonial Card Styling */
 
 .testimonials-header {
