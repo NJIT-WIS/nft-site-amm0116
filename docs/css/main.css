@@ -151,6 +151,10 @@ nav .logo {
 
 /* Featured Section Styling */
 
+.featured {
+    margin-top: 88px;
+}
+
 .featured h2 {
     font-family: Outfit, sans-serif;
     color: #FFF;
@@ -160,18 +164,27 @@ nav .logo {
     line-height: 27.5px; /* 137.5% */
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .featured .image-container {
     border-radius: 7px;
     background: rgba(62, 51, 134, 0.46);
     text-align: center;
+    width: 1064px;
     height: 100px;
 }
 
 .featured img {
-    margin: 17px 50px;
-    opacity: 0.7;
+    margin: auto;
+    padding-right: 60px;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.featured img:nth-last-of-type(1) {
+    padding-right: 0px;
 }
 
 /* Testimonial Card Styling */
