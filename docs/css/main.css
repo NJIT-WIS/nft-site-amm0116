@@ -370,7 +370,6 @@ nav .logo {
     background: #212268;
     width: 345px;
     height: 233px;
-    flex-shrink: 0;
 }
 
 .testimonial img {
