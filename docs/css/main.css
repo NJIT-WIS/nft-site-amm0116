@@ -475,12 +475,9 @@ footer .footer .footer-links {
 }
 
 footer .footer-logo {
-    color: #FFF;
     font-family: Outfit, sans-serif;
     font-size: 22px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     min-width: 180px;
 }
