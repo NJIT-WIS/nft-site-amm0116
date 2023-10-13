@@ -340,6 +340,10 @@ nav .logo {
     transition: 500ms;
 }
 
+#buy img {
+    width: 454px;
+}
+
 /* Testimonial Section Styling */
 
 .testimonials-header {
