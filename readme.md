@@ -32,8 +32,8 @@ All of the Playwright tests need to pass as well.
 
 ## Replace with your Figma project and a link to your site. 
 
-- My Figma Project - [here](https://www.figma.com/file/QVWVFejtGo1pIxXQ0qmHwT/Flux---Figma-Build-Tutorial-(Starter)-(Community)?type=design&node-id=202%3A2&mode=design&t=DM6kK5pNGvHQSU1m-1)
+- My Figma Project - [here](https://www.figma.com/file/aIzLEnaN445evMXsARgCHn/Flux---Figma-Build-Tutorial-(Amira-Mohamed)?type=design&node-id=302%3A2&mode=design&t=jRfm79ApvmvgJR5m-1)
 
-- GitHub Pages Hosted Project - [here](https://kaw393939.github.io/webdev1-module5/)
+- GitHub Pages Hosted Project - [here](https://njit-wis.github.io/nft-site-amm0116/)
 
 
